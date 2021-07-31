@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 3px;
+}
+.body{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 8px;
+    box-shadow: 0 4px 4px 0 rgb(78, 77, 77);
+    transition: 0.3s;
+}
+.body:hover{
+    box-shadow: 0 8px 8px rgb(78, 77, 77);
+}
+.input #result{
+    height: 100px;
+    width: 300px;
+    font-size: 32px;
+    margin-top: 4px;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+
+}
+.btn{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2px;
+    background-color: rgb(46, 41, 41);
+    color: rgb(238, 228, 228);
+    margin-bottom: 2px;
+    
+}
+.btn_blue{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2px;
+    background-color: rgb(101, 53, 190);
+    color: rgb(238, 228, 228);
+    margin-bottom: 2px;
+    
+}
+.btn_yellow{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2px;
+    background-color: rgb(153, 190, 53);
+    color: rgb(238, 228, 228);
+    margin-bottom: 2px;
+    
+}
+.btn:hover{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 2px;
+    background-color: rgb(205, 221, 224);
+    color: rgb(80, 61, 61);
+    margin-bottom: 2px;
+}
+.btn_blue:hover{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2px;
+    background-color: rgb(46, 5, 121);
+    color: rgb(238, 228, 228);
+    margin-bottom: 2px;
+    
+}
+.btn_yellow:hover{
+    width: 73px;
+    height: 53px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 2px;
+    background-color: rgb(95, 114, 44);
+    color: rgb(238, 228, 228);
+    margin-bottom: 2px;
+    
+}
